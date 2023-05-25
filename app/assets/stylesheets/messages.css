@@ -120,7 +120,6 @@ Chat
 }
 .form-message {
   width: 100%;
-  margin-right: 15px;
   padding-left: 10px;
   line-height: 50px;
   border: none;
@@ -138,10 +137,15 @@ Chat
   display: none;
 }
 .form-submit {
+  margin-left: 15px;
   line-height: 50px;
   padding: 0 20px;
   font-size: 16px;
   color: #fff;
   background-color: #38AEF0;
   border: none;
+}
+
+.field_with_errors {
+  display: contents;
 }
